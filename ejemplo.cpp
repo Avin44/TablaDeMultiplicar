@@ -8,8 +8,14 @@ int main(){
     cout << "ingrese un numero" << endl;
     cin >> numero;
 
+    if(numero<0){
+        cout << "ingrese un numero mayor a 0" << endl;
+    }else{
+
+
     for(int i = 1; i <= 10; i++ ){
         cout <<numero << "x" << i*numero << endl;
+    }
     }
 
 
